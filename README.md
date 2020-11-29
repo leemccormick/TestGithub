@@ -4,7 +4,7 @@ Github Study. This is first time I learned how to use Github. It might be a firs
 There is _nothing_ here in this document. 
 ### Markdown
 This is a GitHub Flavor Markdown.
-My name is **Lee McCormick** >>> to bold
+/n My name is **Lee McCormick** >>> to bold
 My name is _Lee McCormick_ >>> to italics
 My name is `Lee McCormick` >>> to code
 #### My name is Lee >>> This is for header4.
