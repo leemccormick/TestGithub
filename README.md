@@ -44,20 +44,16 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
 * `git branch` >> master or another branch
 * `git clone` >> clone from gitHub
 * `git status` >> check status
- git log >> log to see what on it
- git add >> add something
- git add . >> add all chages
- git checkout >> just for switch the branch
- 
- git checkout .B >> ?? example git checkout -b day2-starter
- git checkout -b >> create the branch and switch and named it., So it is follow by name.
- 
- git commit -m  >> ex."Added a descrption to README." Everytime commit, you need to comment what you do.
- 
- git push origin master >> pushing data to the gitHub git repository
- git reset --hard >>> To delete the change, but not recommend to do it.
-
- git pull orgin master >> pull data from the gitHub to your local computer
+* `git log` >> log to see what on it
+* `git add` >> add something
+* `git add .` >> add all chages
+* `git checkout` >> just for switch the branch
+* `git checkout -b >> ?? example git checkout -b day2-starter
+* `git checkout -b` >> create the branch and switch and named it., So it is follow by name.
+* `git commit -m "...."`  >> ex."Added a descrption to README." Everytime commit, you need to comment what you do.
+* `git push origin master` >> pushing data to the gitHub git repository
+* `git reset --hard` >>> To delete the change, but not recommend to do it.
+* `git pull orgin master` >> pull data from the gitHub to your local computer
  
  _______________________________________________________________________
  
@@ -81,14 +77,14 @@ Pushing from local to remote
  ______________________________________________________________
  
  #### Git commands by River
- init -> creates a .git file for your local directory
- status -> displays the staging area of all your changes
- add OR add . -> adds a file to the staging area OR adds all the files in a folder to staging area
- git commit -m "comment" -> commits changes to remote/local repository
- git log -> sees log of commits
- git diff -> sees changes that occured
- git checkout -> reverts back to last commit on the CURRENT branch you are on
- git push -> pushes files to remote repository
+ init -> creates a .git file for your local directory<br />
+ status -> displays the staging area of all your changes<br />
+ add OR add . -> adds a file to the staging area OR adds all the files in a folder to staging area<br />
+ git commit -m "comment" -> commits changes to remote/local repository<br />
+ git log -> sees log of commits<br />
+ git diff -> sees changes that occured<br />
+ git checkout -> reverts back to last commit on the CURRENT branch you are on<br />
+ git push -> pushes files to remote repository<br />
  
  [Click here](https://gist.github.com/kevin-smets/8568070)
  
