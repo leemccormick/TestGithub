@@ -48,7 +48,7 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
 * `git add` >> add something
 * `git add .` >> add all chages
 * `git checkout` >> just for switch the branch
-* `git checkout -b >> ?? example git checkout -b day2-starter
+* `git checkout -b` >> ?? example git checkout -b day2-starter
 * `git checkout -b` >> create the branch and switch and named it., So it is follow by name.
 * `git commit -m "...."`  >> ex."Added a descrption to README." Everytime commit, you need to comment what you do.
 * `git push origin master` >> pushing data to the gitHub git repository
@@ -66,7 +66,7 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
  
  _______________________________________________________________________
  
-Pushing from local to remote
+##### Pushing from local to remote
  1) git init //Open your file path then using git init
  2) git commit
  3) create resposity on GitHub
