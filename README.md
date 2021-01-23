@@ -15,38 +15,35 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
 
 #### Day 5 Week 1 at DevMountain  : Afternoon Lecture Git by Aron Martinez
  
- What is Git? >> Git =! GitHub
+ ##### What is Git? >> Git =! GitHub
     Git is..
-    - A distributed version-control system for tracking changes in source code during sofeware develpment.
-    - It is designed for coofinating work among programmers, but it  can be used to track changs in any set of files.
-    - Just be careful while using it.
+   * A distributed version-control system for tracking changes in source code during sofeware develpment.
+   * It is designed for coofinating work among programmers, but it  can be used to track changs in any set of files.
+   * Just be careful while using it.
+   *  For saving in the could and for working in a team. cloud safty and ability to work with people.
+   * It is a free version for using on Github.
  
  Terminal is command line tool.
-    >> command + space == for finder.
-    >> command + K == for cleaning terminal screen
-    >> q == quick the log screen
+    * command + space == for finder.
+    * command + K == for cleaning terminal screen
+    * q == quick the log screen
     
- pwd == show the path. "where you at" ex./Users/tittapornsaelee
- cd == change dicrectory
- ls == list
- cd .. == go back to last dicractory, jumped up one at a time
+ * pwd == show the path. "where you at" ex./Users/tittapornsaelee
+ * cd == change dicrectory
+ * ls == list
+ * cd .. == go back to last dicractory, jumped up one at a time
  
- >> git repository >> this is what we gonna use a lot
+ * git repository >> this is what we gonna use a lot
  
- For saving in the could and for working in a team. cloud safty and ability to work with people.
+ * Branches >> We can work in seperate and many branches and combine it at the end.
  
- It is a free version for using on Github.
+ When we cloning the git, you have an origin branch from github,but you will have local copy in your computer.
  
- Branches >> We can work in seperate and many branches and combine it at the end.
- 
- When we cloning the git, you have an origin branch from github
- ,but you will have local copy in your computer.
- 
- Keywords >> Git that we will be using offen
+ ##### Keywords >> Git that we will be using offen
 
- git branch >> master or another branch
- git clone >> clone from gitHub
- git status >> check status
+* `git branch` >> master or another branch
+* `git clone` >> clone from gitHub
+* `git status` >> check status
  git log >> log to see what on it
  git add >> add something
  git add . >> add all chages
