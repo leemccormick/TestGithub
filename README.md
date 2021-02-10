@@ -62,10 +62,10 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
 * `git reset` >> Go back and delete the last change from commit
  _______________________________________________________________________
  
- git revert VS git reset
- The git revert and git reset Commands¶
-The most significant difference between git revert and git reset is that the git revert command targets a specific commit not removing all the coming commits. On the contrary, using the git reset command will remove the overall coming commits. Let’s say you are going to undo a commit with the usage of the git reset command, you need to remove the whole commits coming after the targeted one. Generally, git revert is the most secure alternative of git reset. Although the process may seem quite complicated, it becomes pretty easy after going through it several times.
-  [Click here] https://careerkarma.com/blog/git-revert-commit/
+##### git revert VS git reset
+* The git revert and git reset Commands
+* The most significant difference between git revert and git reset is that the git revert command targets a specific commit not removing all the coming commits. On the contrary, using the git reset command will remove the overall coming commits. Let’s say you are going to undo a commit with the usage of the git reset command, you need to remove the whole commits coming after the targeted one. Generally, git revert is the most secure alternative of git reset. Although the process may seem quite complicated, it becomes pretty easy after going through it several times.
+  [Click here] (https://careerkarma.com/blog/git-revert-commit/)
  _______________________________________________________________________
  
  pull >> pull the data after the local push
