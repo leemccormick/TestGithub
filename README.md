@@ -54,7 +54,18 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
 * `git push origin master` >> pushing data to the gitHub git repository
 * `git reset --hard` >>> To delete the change, but not recommend to do it.
 * `git pull orgin master` >> pull data from the gitHub to your local computer
+* `git branch -D` >> To delete branch ==> git branch -D nameOfTheBranch
+* `git revert` >> To Go Back ???
+*  cd.. >> To Delete your repository in the local
+*  `git revert 57d763663e619088159bb7629243456f88feab791` >> git revert to specific commit. 
+* `git revert <sha1-commit-hash>` >> Go back to specific commit
+* `git reset` >> Go back and delete the last change from commit
+ _______________________________________________________________________
  
+ git revert VS git reset
+ The git revert and git reset Commands¶
+The most significant difference between git revert and git reset is that the git revert command targets a specific commit not removing all the coming commits. On the contrary, using the git reset command will remove the overall coming commits. Let’s say you are going to undo a commit with the usage of the git reset command, you need to remove the whole commits coming after the targeted one. Generally, git revert is the most secure alternative of git reset. Although the process may seem quite complicated, it becomes pretty easy after going through it several times.
+  [Click here] https://careerkarma.com/blog/git-revert-commit/
  _______________________________________________________________________
  
  pull >> pull the data after the local push
@@ -88,4 +99,33 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
  
  [Click here](https://gist.github.com/kevin-smets/8568070)
  
+ ______________________________________________________________
+ #### Git commands by Maxoff
+  General GitHub Notes:
+- Never push from your machine directly onto main or develop. 
+- Do not place your project on your machine in an area that is tracked by iCloud
+- Main represents your current app store/production build. Only merge develop into main when you are pushing an update to your app. Main and app store should be the same code, always. 
+- Develop represents the next build that you plan on pushing to the app store. 
+- The only thing that is merged into main is develop. The only thing that is merged into develop is feature branches. Again, never push from your machine directly into main or develop. 
+- Feature branches can be named after your first name, or the general feature you are working on (ex: "Gerald" or "AppleSignIn")
+- Only one person should work on Storyboards at a time. Multiple people touching/interacting with the same storyboard will create xml merge conflicts. Very difficult. 
+- Generally recommended to have one view per storyboard so that you can maximize work on the storyboards. Don't put all viewControllers on main.storyboard, but instead create a storyboard file for each VC and then use storyboard references to connect 
+- Remote = on GitHub, Local = on your machine 
 
+  General GitHub Workflow:
+- Pull develop to your machine
+- Checkout to a feature branch
+- Work
+- Add, commit
+- Push local branch to remote branch of same name
+- On Github, create pull request to merge feature branch into develop
+- Check for / resolve merge conflicts 
+- Once merged, do not delete remote feature branch yet. Leave screen as is
+- On your machine, switch to local develop branch
+- Pull develop to get most recent version 
+- Ensure that project builds and runs as expected
+- If projects works as expected, delete freshly merged feature branch, both local and remote. 
+- Checkout to a new feature branch 
+- Repeat
+ 
+ The workflow is not the only way to go about things. There's definitely room for debate on that front. This is just one way, and a good way to learn for the first time
