@@ -77,13 +77,16 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
  
  _______________________________________________________________________
  
-##### Pushing from local to remote
+#### Pushing from local to remote
  1) git init //Open your file path then using git init
  2) git commit
  3) create resposity on GitHub
  3) git remote add <name> <url> // example >> git remote add testGitHub https://github.com/Tittaporn/gitHubNote
  4) git push --set-upstream <name> master // example >> git push --set-upstream testGitHub master
  5) git push <name>
+ 
+ ![Screen Shot 2021-02-24 at 1 30 52 PM](https://user-images.githubusercontent.com/57606580/109055278-90252680-76a4-11eb-91af-a6b919ef4fdf.png)
+
 
  ______________________________________________________________
  
