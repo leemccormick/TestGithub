@@ -139,3 +139,9 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
 - Repeat
  
  The workflow is not the only way to go about things. There's definitely room for debate on that front. This is just one way, and a good way to learn for the first time
+ 
+  ______________________________________________________________
+ #### CocoaPod ISSUES ==> This is not about Git, but Something on cocaoPod
+ - IF the project does not run, because of cocoapod issues, please use pod deintegrate and pod install
+   - pod deintegrate ==> To Delete all pods
+   - pod install ==> To Install all pods
