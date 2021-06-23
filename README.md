@@ -145,3 +145,13 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
  - IF the project does not run, because of cocoapod issues, please use pod deintegrate and pod install
    - pod deintegrate ==> To Delete all pods
    - pod install ==> To Install all pods
+   ______________________________________________________________
+ ####  How to get out from this screen on terminal
+* Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch. *
+ 
+1) press "i" (i for insert)
+2) write your merge message
+3) press "esc" (escape)
+4) write ":wq" (write & quit)
+5) then press enter
+ 
