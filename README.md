@@ -147,8 +147,7 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
    - pod install ==> To Install all pods
    ______________________________________________________________
  ####  How to get out from this screen on terminal
-* Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch. *
- 
+* Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch. 
 1) press "i" (i for insert)
 2) write your merge message
 3) press "esc" (escape)
