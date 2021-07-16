@@ -153,8 +153,7 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
    - open Podfile ==> After open the pod file add the pod name on the file
    - pod install ==> to install the pod then ready to go
  ![Screen Shot 2021-07-16 at 1 34 49 PM](https://user-images.githubusercontent.com/57606580/126004365-adc825c6-cb91-43e4-b3f4-07e0700a11b4.png)
- #### Install cocaopod on M1
- [Click here](https://www.youtube.com/watch?v=Nropa9Qj37s)https://www.youtube.com/watch?v=Nropa9Qj37s
+ #### Install cocaopod on M1 https://www.youtube.com/watch?v=Nropa9Qj37s
    ______________________________________________________________
  ####  How to get out from this screen on terminal
 * Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch. 
