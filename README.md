@@ -141,10 +141,17 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
  The workflow is not the only way to go about things. There's definitely room for debate on that front. This is just one way, and a good way to learn for the first time
  
   ______________________________________________________________
+ ### CocadPod
  #### CocoaPod ISSUES ==> This is not about Git, but Something on cocaoPod
  - IF the project does not run, because of cocoapod issues, please use pod deintegrate and pod install
    - pod deintegrate ==> To Delete all pods
    - pod install ==> To Install all pods
+  #### CocoaPod install on the new mac machine
+   - sudo gem install cocoapods ==> to install this using terminal
+  #### CocoaPod to the project
+   - pod init ==> cd to the project on terminal and using this command
+   - open Podfile ==> After open the pod file add the pod name on the file
+   - pod install ==> to install the pod then ready to go
    ______________________________________________________________
  ####  How to get out from this screen on terminal
 * Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch. 
