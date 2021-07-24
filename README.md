@@ -156,6 +156,7 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
  #### Install cocaopod on M1 https://www.youtube.com/watch?v=Nropa9Qj37s
    ______________________________________________________________
  ####  How to get out from this screen on terminal
+ ![Screen Shot 2021-07-24 at 1 17 20 PM](https://user-images.githubusercontent.com/57606580/126877816-cbe8d5f2-32af-4471-8e15-719cd31a8d05.png)
 * Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch. 
 1) press "i" (i for insert)
 2) write your merge message
