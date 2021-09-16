@@ -67,7 +67,17 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
 * The most significant difference between git revert and git reset is that the git revert command targets a specific commit not removing all the coming commits. On the contrary, using the git reset command will remove the overall coming commits. Let’s say you are going to undo a commit with the usage of the git reset command, you need to remove the whole commits coming after the targeted one. Generally, git revert is the most secure alternative of git reset. Although the process may seem quite complicated, it becomes pretty easy after going through it several times.
   [Click here] (https://careerkarma.com/blog/git-revert-commit/)
  _______________________________________________________________________
+ ##### git reset, git restore and git revert.
+ There are three commands with similar names: git reset, git restore and git revert.
+- git-revert is about making a new commit that reverts the changes made by other commits.
+- git-restore is about restoring files in the working tree from either the index or another commit.
+This command does not update your branch.
+The command can also be used to restore files in the index from another commit.
+- git-reset is about updating your branch, moving the tip in order to add or remove commits from the branch. This operation changes the commit history.
+- git reset can also be used to restore the index, overlapping with git restore.
  
+ ***GO BACK to last commit when I messed up the code, instead git add . and commit ==> git restore .
+  _______________________________________________________________________
  pull >> pull the data after the local push
 
  commit >> for keep save changs in your project.
