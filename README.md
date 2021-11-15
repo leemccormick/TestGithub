@@ -173,4 +173,6 @@ The command can also be used to restore files in the index from another commit.
 3) press "esc" (escape)
 4) write ":wq" (write & quit)
 5) then press enter
- 
+    ______________________________________________________________
+ ####  Github Authentication 
+- https://www.youtube.com/watch?v=KHXd8SWFTl0
