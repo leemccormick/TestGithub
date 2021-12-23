@@ -162,6 +162,7 @@ The command can also be used to restore files in the index from another commit.
    - pod init ==> cd to the project on terminal and using this command
    - open Podfile ==> After open the pod file add the pod name on the file
    - pod install ==> to install the pod then ready to go
+   - pod install --no-repo-update ==> to install new pod
  ![Screen Shot 2021-07-16 at 1 34 49 PM](https://user-images.githubusercontent.com/57606580/126004365-adc825c6-cb91-43e4-b3f4-07e0700a11b4.png)
  #### Install cocaopod on M1 https://www.youtube.com/watch?v=Nropa9Qj37s
    ______________________________________________________________
