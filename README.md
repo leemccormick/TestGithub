@@ -13,6 +13,12 @@ This is my **LinkedIn** >>> [Click here](https://www.linkedin.com/in/tittapornmc
 * I love learning how to code every day.
 * I love iOS app development.
 
+#### Github ReadMe Add Code
+```
+$ example of code 
+$ test add 
+$ a block of code
+```
 #### Day 5 Week 1 at DevMountain  : Afternoon Lecture Git by Aron Martinez
  
  ##### What is Git? >> Git =! GitHub
