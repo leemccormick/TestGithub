@@ -58,7 +58,7 @@ $ a block of code
 * `git checkout -b` >> create the branch and switch and named it., So it is follow by name.
 * `git commit -m "...."`  >> ex."Added a descrption to README." Everytime commit, you need to comment what you do.
 * `git push origin master` >> pushing data to the gitHub git repository
-* `git reset --hard` >>> To delete the change, but not recommend to do it.
+* `git reset --hard` >>> To delete the change, but not recommend to do it. --> example : git reset hard d0bf791905098ae4680a566d74e10b00f880d199
 * `git pull orgin master` >> pull data from the gitHub to your local computer
 * `git branch -D` >> To delete branch ==> git branch -D nameOfTheBranch
 * `git revert` >> To Go Back ???
@@ -66,6 +66,9 @@ $ a block of code
 *  `git revert 57d763663e619088159bb7629243456f88feab791` >> git revert to specific commit. 
 * `git revert <sha1-commit-hash>` >> Go back to specific commit
 * `git reset` >> Go back and delete the last change from commit
+* `git push --force` >> Force your remote branch to go back to where your local branch is. --> example : git push origin MNP-293-166-iOS-filterSport-and-filters-parameters-on-SearchView --force
+* `git reflog` >> see all your previous operations
+* `git reset --hard HEAD@{16}` >> this is example to move the local branch to HEAD@{16}
  _______________________________________________________________________
  
 ##### git revert VS git reset
@@ -183,3 +186,8 @@ The command can also be used to restore files in the index from another commit.
     ______________________________________________________________
  ####  Github Authentication 
 - https://www.youtube.com/watch?v=KHXd8SWFTl0
+
+  ______________________________________________________________
+### Git Undo Rebase
+- https://krishansubudhi.github.io/git/2020/01/20/git-rebase-undo.html#:~:text=Undo%20a%20git%20rebase%201%20Back%20up%20all,to%20this%20commit.%20git%20reset%20--hard%20HEAD%40%20%7B16%7D
+  ______________________________________________________________
