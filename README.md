@@ -191,3 +191,12 @@ The command can also be used to restore files in the index from another commit.
 ### Git Undo Rebase
 - https://krishansubudhi.github.io/git/2020/01/20/git-rebase-undo.html#:~:text=Undo%20a%20git%20rebase%201%20Back%20up%20all,to%20this%20commit.%20git%20reset%20--hard%20HEAD%40%20%7B16%7D
   ______________________________________________________________
+  
+ #### ReadMe Table Example
+ 
+| FirstName     | LastName      | City     |
+| ------------- | ------------- | -------- |
+| John          | Test1         | NewYork  |
+| Bob           | Test2         | Toronto  |
+
+______________________________________________________________
