@@ -198,5 +198,21 @@ The command can also be used to restore files in the index from another commit.
 | ------------- | ------------- | -------- |
 | John          | Test1         | NewYork  |
 | Bob           | Test2         | Toronto  |
+ 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+ 
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+ 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
 
 ______________________________________________________________
