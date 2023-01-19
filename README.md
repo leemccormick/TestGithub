@@ -193,6 +193,7 @@ The command can also be used to restore files in the index from another commit.
   ______________________________________________________________
   
  #### ReadMe Table Example
+ - https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
  
 | FirstName     | LastName      | City     |
 | ------------- | ------------- | -------- |
@@ -214,5 +215,9 @@ The command can also be used to restore files in the index from another commit.
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
 
 ______________________________________________________________
